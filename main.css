@@ -1,0 +1,446 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  position: static;
+  width: 1920px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.logo {
+  position: absolute;
+  width: 122.07px;
+  height: 32px;
+  left: 80px;
+  top: 24px;
+}
+
+.hyperlinks {
+  position: absolute;
+  width: 598px;
+  height: 25px;
+  left: 1012px;
+  top: 27px;
+  flex-direction: row;
+  gap: 130px;
+  color: #4558ff;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+
+.account {
+  position: absolute;
+  width: 115px;
+  height: 22px;
+  left: 1701px;
+  top: 29px;
+  color: #9f9f9f;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  gap: 31px;
+}
+
+.line {
+  position: absolute;
+  width: 17px;
+  height: 0px;
+  left: 1758px;
+  top: 41px;
+
+  border: 1px solid #c6c6c6;
+  transform: rotate(90deg);
+}
+
+.greyrect {
+  position: static;
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+
+  background: #c4c4c4;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+/******************** START OF SECTION ONE CSS *******************/
+.rectOne {
+  position: relative;
+  width: 1920px;
+  height: 758px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.whatWeDo {
+  position: absolute;
+  width: 114px;
+  height: 26px;
+  left: 450px;
+  top: 60px;
+
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height */
+
+  /* maincolor_blue */
+
+  color: #4558ff;
+}
+
+.programEllipse {
+  position: absolute;
+  width: 449px;
+  height: 449px;
+  left: 450px;
+  top: 192px;
+}
+
+.programOff {
+  position: absolute;
+  width: 265px;
+  height: 264px;
+  left: 542px;
+  top: 285px;
+}
+
+.programHead {
+  position: absolute;
+  width: 280.83px;
+  height: 67.99px;
+  left: 1191px;
+  top: 192px;
+}
+
+.programSubtext {
+  position: absolute;
+  width: 183px;
+  height: 35px;
+  left: 1289px;
+  top: 255px;
+}
+
+.programDesc {
+  position: absolute;
+  width: 432px;
+  height: 64px;
+  left: 1040px;
+  top: 468px;
+}
+
+.programButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  position: absolute;
+  width: 259px;
+  height: 61px;
+  left: 1213px;
+  top: 557px;
+  background: #ffffff;
+  border: 2px solid #4558ff;
+  box-sizing: border-box;
+  border-radius: 40px;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  /* maincolor_blue */
+
+  color: #4558ff;
+}
+
+.programButton:hover {
+  color: #ffffff;
+  background: #4558ff;
+}
+
+/******************** START OF SECTION TWO CSS *******************/
+
+.rectTwo {
+  position: relative;
+  width: 1920px;
+  height: 758px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.bookEllipse {
+  position: absolute;
+  width: 449px;
+  height: 449px;
+  left: 1071px;
+  top: 192px;
+}
+
+.bookHead {
+  position: absolute;
+  width: 174.87px;
+  height: 54.6px;
+  left: 450px;
+  top: 192px;
+}
+
+.bookSubtext {
+  position: absolute;
+  width: 283px;
+  height: 35px;
+  left: 448px;
+  top: 255px;
+}
+
+.bookDesc {
+  position: absolute;
+  width: 432px;
+  height: 64px;
+  left: 444px;
+  top: 468px;
+}
+
+.bookOff {
+  position: absolute;
+  width: 263.09px;
+  height: 218.08px;
+  left: 1164px;
+  top: 307px;
+}
+
+.bookButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  position: absolute;
+  width: 259px;
+  height: 61px;
+  left: 523.5px;
+  top: 573px;
+
+  background: #ffffff;
+  border: 2px solid #4558ff;
+  box-sizing: border-box;
+  border-radius: 40px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  /* maincolor_blue */
+
+  color: #4558ff;
+}
+
+.bookButton:hover {
+  color: #ffffff;
+  background: #4558ff;
+}
+
+/******************** START OF SECTION THREE CSS *******************/
+
+.rectThree {
+  position: relative;
+  width: 1920px;
+  height: 758px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.resourceHead {
+  position: absolute;
+  width: 296.05px;
+  height: 51.22px;
+  left: 1176px;
+  top: 192px;
+}
+
+.resourceSubtext {
+  position: absolute;
+  width: 327px;
+  height: 35px;
+  left: 1145px;
+  top: 255px;
+}
+
+.resourceDesc {
+  position: absolute;
+  width: 432px;
+  height: 64px;
+  left: 1160px;
+  top: 468px;
+}
+
+.resourceEllipse {
+  position: absolute;
+  width: 449px;
+  height: 449px;
+  left: 450px;
+  top: 192px;
+}
+
+.resourceOff {
+  position: absolute;
+  width: 241px;
+  height: 228.98px;
+  left: 554px;
+  top: 302px;
+}
+
+.resourceButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  position: absolute;
+  width: 259px;
+  height: 61px;
+  left: 1213px;
+  top: 557px;
+
+  background: #ffffff;
+  border: 2px solid #4558ff;
+  box-sizing: border-box;
+  border-radius: 40px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  /* maincolor_blue */
+
+  color: #4558ff;
+}
+
+.resourceButton:hover {
+  color: #ffffff;
+  background: #4558ff;
+}
+
+.footer {
+  position: relative;
+  width: 1920px;
+  height: 501px;
+  left: 0px;
+  top: 0px;
+}
+
+/******************** FADE IN OFF IMAGES *******************/
+
+.programOn {
+  display: none;
+  position: absolute;
+  width: 265px;
+  height: 264px;
+  left: 542px;
+  top: 285px;
+}
+
+.bookOn {
+  display: none;
+  position: absolute;
+  width: 263.09px;
+  height: 218.08px;
+  left: 1164px;
+  top: 307px;
+}
+
+.resourceOn {
+  display: none;
+  position: absolute;
+  width: 241px;
+  height: 228.98px;
+  left: 554px;
+  top: 260px;
+}
